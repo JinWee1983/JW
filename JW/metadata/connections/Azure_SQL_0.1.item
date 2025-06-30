@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Z_8wEE1-Ee-RIYwJ2mvxBw" name="Azure_SQL" id="_72jTkE19Ee-RIYwJ2mvxBw" label="Azure_SQL" dataPackage="_WamAsE2DEe-RIYwJ2mvxBw" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://src-dbsvr-prd.database.windows.net:1433;DatabaseName=src_reunion_dwh_prd;" dbVersionString="MSSQL_PROP" Port="1433" Username="src_sysadmin" Password="enc:system.encryption.key.v1:7Ie00SwF7y0U11UyunhJRndZ3am4PzsWTFt3fXJyOj8biG1YO4dAFDoQkKuM59E=" ServerName="src-dbsvr-prd.database.windows.net" DatasourceName="" FileFieldName="" SID="src_reunion_dwh_prd" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dwh" supportNLS="false">
+    <taggedValue xmi:id="_Z_8wEU1-Ee-RIYwJ2mvxBw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_aB2NgE1-Ee-RIYwJ2mvxBw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_aCMLwE1-Ee-RIYwJ2mvxBw" tag="Status" value=""/>
+    <taggedValue xmi:id="_aCMLwU1-Ee-RIYwJ2mvxBw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_aCMLwk1-Ee-RIYwJ2mvxBw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_aCMLw01-Ee-RIYwJ2mvxBw" tag="Description" value=""/>
+    <taggedValue xmi:id="_aCMLxE1-Ee-RIYwJ2mvxBw" tag="Author" value=""/>
+    <taggedValue xmi:id="_aCMLxU1-Ee-RIYwJ2mvxBw" tag="otherParameter"/>
+    <taggedValue xmi:id="_aDCgUE1-Ee-RIYwJ2mvxBw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_aDCgUU1-Ee-RIYwJ2mvxBw" tag="DB ProductVersion" value="12.00.5564"/>
+    <taggedValue xmi:id="_aDCgUk1-Ee-RIYwJ2mvxBw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_Z_8wEk1-Ee-RIYwJ2mvxBw" key="CONN_PARA_KEY_USERNAME" value="src_sysadmin"/>
+    <parameters xmi:id="_Oft00E2DEe-RIYwJ2mvxBw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_WamAsE2DEe-RIYwJ2mvxBw" name="src_reunion_dwh_prd" dataManager="_Z_8wEE1-Ee-RIYwJ2mvxBw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_WamAsU2DEe-RIYwJ2mvxBw" name="dwh"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

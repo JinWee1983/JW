@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pqxZgC_jEfCKVdqphwaUhg" name="PUB_Mock_Data" supplierDependency="_DOQryy_tEfCKVdqphwaUhg" id="_pqr58C_jEfCKVdqphwaUhg" dataPackage="_pqxZgS_jEfCKVdqphwaUhg" Server="Localhost 127.0.0.1" FilePath="C:/Users/jinwee/Desktop/Jinwee/Talend/DQ_Rules_1/PUB Mock Dataset.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pqxZgS_jEfCKVdqphwaUhg" name="default" dataManager="_pqxZgC_jEfCKVdqphwaUhg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pqxZgi_jEfCKVdqphwaUhg" id="_hwj8AC_jEfCKVdqphwaUhg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZgy_jEfCKVdqphwaUhg" id="CustomerID" label="CustomerID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZhC_jEfCKVdqphwaUhg" id="CustomerName" label="CustomerName" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DOQrzC_tEfCKVdqphwaUhg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZhS_jEfCKVdqphwaUhg" id="NRIC" label="NRIC" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DOQr1i_tEfCKVdqphwaUhg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZhi_jEfCKVdqphwaUhg" id="Month" label="Month" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZhy_jEfCKVdqphwaUhg" id="WaterConsumption_Liters" label="WaterConsumption_Liters" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DOQr2y_tEfCKVdqphwaUhg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZiC_jEfCKVdqphwaUhg" id="WaterQualityIndex" label="WaterQualityIndex" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_vH6okC_sEfCKVdqphwaUhg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZiS_jEfCKVdqphwaUhg" id="TDS_ppm" label="TDS_ppm" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DOQr6S_tEfCKVdqphwaUhg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZii_jEfCKVdqphwaUhg" id="pHLevel" label="pHLevel" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DOQr5C_tEfCKVdqphwaUhg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZiy_jEfCKVdqphwaUhg" id="ChlorineLevel_mg_L" label="ChlorineLevel_mg_L" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DOQr7i_tEfCKVdqphwaUhg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZjC_jEfCKVdqphwaUhg" id="CustomerFeedback" label="CustomerFeedback" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pqxZjS_jEfCKVdqphwaUhg" id="BillingAmount" label="BillingAmount" length="7" precision="5" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_DOQryy_tEfCKVdqphwaUhg" kind="Usage" supplier="_pqxZgC_jEfCKVdqphwaUhg">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/PUB_Analysis_0.1.ana#_H9IrIC_sEfCKVdqphwaUhg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>
